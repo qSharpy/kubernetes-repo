@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: registry.r630.mnn:4443/mnn_email
+        image: nginx
         ports:
         - containerPort: 80
